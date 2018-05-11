@@ -2,7 +2,7 @@
 public class Macska extends Emlõs {
 	
 	//ha macska tipusú objectumot hoznék létre ezeket az adatokat kérné:
-	public Macska(int labak_szama, boolean szorzet_van_e, double suly) {
+	public Macska(int labak_szama, String szorzet_van_e, double suly) {
 		super(labak_szama, szorzet_van_e, suly);
 		// TODO Auto-generated constructor stub
 	}
@@ -17,7 +17,7 @@ public class Macska extends Emlõs {
 	public void setJellemzo_hangok(String jellemzo_hangok) {
 		this.jellemzo_hangok = jellemzo_hangok;
 	}
-	public Macska(int labak_szama, boolean szorzet_van_e, double suly, String szorzet_szine, String jellemzo_hangok) {
+	public Macska(int labak_szama, String szorzet_van_e, double suly, String szorzet_szine, String jellemzo_hangok) {
 		super(labak_szama, szorzet_van_e, suly);
 		this.szorzet_szine = szorzet_szine;
 		this.jellemzo_hangok = jellemzo_hangok;
